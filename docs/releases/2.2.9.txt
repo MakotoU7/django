@@ -29,3 +29,8 @@ Bugfixes
   :class:`~django.contrib.postgres.forms.SplitArrayField`. When using with
   ``ArrayField(BooleanField())``, all values after the first ``True`` value
   were marked as checked instead of preserving passed values (:ticket:`31073`).
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
